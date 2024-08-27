@@ -1,0 +1,391 @@
+/* index */
+.headerprincipal {
+    flex-wrap: wrap;
+    border: 3px solid black;
+    
+}
+
+.sectionheader {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.enlacesheader {
+    display: flex;
+    justify-content: center;
+    margin-right: 50px;
+    margin-top: 20px;
+    }
+ 
+   
+    .links {
+    display: flex;
+    gap: 3rem;
+    }
+
+    .linkuno {
+        text-decoration: none;
+        list-style-type: none;
+    }
+    .linkdos {
+        text-decoration: none;
+        list-style-type: none;
+    }
+    .linktres {
+        text-decoration: none;
+        list-style-type: none;
+    }
+    .linkcuatro {
+        text-decoration: none;
+        list-style-type: none;
+    }
+  
+
+    .enlacespromosnav {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+        
+    }
+    .beneficio {
+        list-style-type: none;
+        text-decoration: none;
+        margin-top: 1rem;
+      
+    }
+    .destacados {
+        list-style-type: none;
+        text-decoration: none;
+        margin-top: 1rem;
+    }
+
+    .chapitas {
+        list-style-type: none;
+        text-decoration: none;
+        margin-top: 1rem;
+    }
+    .beneficiol {
+        list-style-type: none;
+        text-decoration: none;
+        font-size: 1.5rem;
+       
+    }
+    .destacadosl {
+        list-style-type: none;
+        text-decoration: none;
+        font-size: 1.5rem;
+       
+        
+    }
+
+    .chapitasl {
+        list-style-type: none;
+        text-decoration: none;
+        font-size: 1.5rem;
+    }
+    .fondocolor {
+        background-color: rgba(212, 130, 36, 0.452);
+    }
+
+    .secpromos {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8rem;
+        justify-content: center;
+        flex-direction: row;
+        height: 45rem;
+        margin-top: 3rem;
+    }
+
+.imagenespromos {
+
+    width: 30rem;
+    height: 30rem;
+}
+
+.imagenespromos img {
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+
+}
+.imagenespromos p {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+    .parrafos1 {
+        width: 100%;
+        height: 5rem;
+    }
+    
+    .horarios {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 100%;
+        height: 50rem;
+    }
+   
+   .horarios img{
+    margin-top: 2rem;
+    width: 60rem;
+    height: 40rem
+    
+   }
+
+.contactos {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 25rem;
+    gap: 15rem;
+}
+
+.contenedorcontactos {
+    width: 20rem;
+    height: 30rem;
+    margin: 3rem;
+    
+}
+
+
+.enlacesredes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.contenedorcontactos p {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+}
+
+.contenedorcontactos h2 {
+    text-align: center;
+}
+
+.enlacesredes img {
+    width: 5rem;
+    margin-top: 2rem;
+}
+
+.tel img{
+    width: 80%;
+    margin-top: 3rem;
+}
+
+.mapa {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 3rem;
+}
+/* pestaña Nosotros responsive */
+.contenedorhome {
+    background-color: rgba(0, 0, 0, 0.541);
+
+}
+.homenosotros {
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 1.5rem;
+    margin: 1rem;
+    color: rgb(163, 2, 2);
+}
+.headernosotros {
+    display: flex;
+    flex-wrap: wrap;
+background-image: url(../Img/WhatsApp\ Image\ 2024-08-24\ at\ 20.58.08.jpeg);    
+height: 100vh;
+width: 100%;
+background-repeat: no-repeat;
+background-position: center center;
+}
+.oscurecerfondo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.541);
+    width: 100%;
+    height: 100%;
+}
+.parrafonosotros {
+    padding: 10rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+}
+.contenedortitulo {
+   border: 4px solid black;
+   
+}
+
+.home {
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 1.5rem;
+    margin: 1rem;
+    color: rgb(163, 2, 2);
+}
+/* pestaña Alimentos responsive*/
+.tituloprincipal {
+    
+    background-image: url(../Img/perroygato2.jpg);
+    width: 100%;
+height: 35rem;
+background-repeat: no-repeat;
+background-position: center center;
+background-size: contain;
+    display: flex;
+    justify-content: center;
+    color: brown;
+    font-size: 3rem;
+
+}
+.molinos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 5rem;
+    list-style-type: none;
+}
+.enlacesmolinos {
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 2rem;
+    color: rgb(163, 2, 2);
+}
+
+.alimentosimagenes {
+    background-color: rgba(224, 9, 9, 0.267);
+    border: 2px solid black;
+    width: 20rem;
+    height: 30rem;
+
+}
+
+.alimentosimagenes img {
+    width: 100%;
+    height: 75%;
+    
+}
+
+.contenedorimg {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: center;
+    margin-top: 10rem;
+
+}
+.inicioalimentos {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    font-size: 3rem;
+    
+}
+.inicioalimentos a {
+    list-style-type: none;
+    text-decoration: none;
+    color: rgb(163, 2, 2);
+}
+.textoalimentos h2 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.textoalimentos p {
+    font-size: 2rem;
+    margin: 2rem;
+}
+
+/* pestaña accesorios y cuidados responsive */
+
+.contenedortituloaccesorios {
+    background-image: url(../Img/accesorios.jpg);
+    background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+    border: 4px solid black;
+}
+.tituloprincipalaccesorios {
+    width: 100%;
+height: 20rem;
+    display: flex;
+    justify-content: center;
+    color: brown;
+    font-size: 3rem;
+    align-items: center;
+
+}
+.contenedorimgaccesorios {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: center;
+    margin-top: 10rem;
+
+}
+.accesoriosimagenes {
+    background-color: rgba(43, 97, 7, 0.267);
+    border: 2px solid black;
+    width: 20rem;
+    height: 30rem;
+}
+.accesoriosimagenes img {
+    width: 100%;
+    height: 75%;
+}
+
+/* pestaña indumentaria responsive*/
+
+.contenedortituloindumentaria {
+    background-image: url(../Img/perrosindu.jpg);
+    background-repeat: no-repeat;
+background-position: 1% 17%;
+background-size: cover;
+    border: 4px solid black;
+}
+.tituloprincipalindumentaria  {
+    width: 100%;
+height: 35rem;
+    display: flex;
+    justify-content: center;
+    color: rgb(3, 95, 38);
+    font-size: 5rem;
+    align-items: center ;
+
+}
+.contenedorimgindumentaria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: center;
+    margin-top: 10rem;
+
+}
+.indumentariaimagenes {
+    background-color: rgba(0, 10, 146, 0.356);
+    border: 2px solid black;
+    width: 20rem;
+    height: 30rem;
+}
+.indumentariaimagenes img {
+    width: 100%;
+    height: 75%;
+}
